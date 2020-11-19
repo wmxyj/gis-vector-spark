@@ -5,19 +5,12 @@ import com.katus.entity.Feature;
 import com.katus.entity.Layer;
 import com.katus.io.writer.LayerTextFileWriter;
 import com.katus.model.args.BufferArgs;
-import com.katus.model.args.UnionArgs;
 import com.katus.util.InputUtil;
 import com.katus.util.SparkUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.spark.api.java.JavaPairRDD;
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.api.java.function.Function;
 import org.apache.spark.api.java.function.PairFunction;
 import org.apache.spark.sql.SparkSession;
-import org.locationtech.jts.geom.Geometry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import scala.Tuple2;
 
 @Slf4j

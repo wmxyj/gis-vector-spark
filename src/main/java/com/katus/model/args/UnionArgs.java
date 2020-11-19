@@ -17,7 +17,7 @@ public class UnionArgs implements Serializable {
 
     @Option(name = "-input1", usage = "shp或csv文件输入路径", required = true)
     private String input1;
-//    @Option(name = "-type1", usage = "输入文件类型，WKT或者SHP", required = true)
+    //    @Option(name = "-type1", usage = "输入文件类型，WKT或者SHP", required = true)
 //    private String type1;
 //    @Option(name = "-idIndex1", usage = "如果为csv文件，则需要指定id的列数，从0开始", required = true)
 //    private String idIndex1;
